@@ -21,7 +21,7 @@ obstacle_image = pygame.transform.scale(obstacle_image, (50, 50))
 # Định nghĩa các biến cho game
 player_x = 50
 player_y = window_height // 2
-player_speed = 5
+player_speed = 2
 player_rect = player_image.get_rect(topleft=(player_x, player_y))
 
 coin_list = []
